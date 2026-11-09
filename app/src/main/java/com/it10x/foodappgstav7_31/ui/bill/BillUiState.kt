@@ -1,0 +1,19 @@
+package com.it10x.foodappgstav7_31.ui.bill
+
+data class BillUiState(
+    val loading: Boolean = true,
+    val items: List<BillingItemUi> = emptyList(),
+    val subtotal: Double = 0.0,
+    val deliveryFee: Double = 0.0,
+    val deliveryTax: Double = 0.0,
+    val tax: Double = 0.0,
+    val discountFlat: Double = 0.0,
+    val discountPercent: Double = 0.0,
+    val discountApplied: Double = 0.0, // final computed
+    val total: Double = 0.0,
+    val customerPhone: String = "",
+
+    val loyaltyRedeemPoints: Int = 0,
+    val loyaltyDiscountPaise: Long = 0L,
+    val loyaltyDiscount: Double = 0.0,
+)
