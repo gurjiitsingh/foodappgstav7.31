@@ -482,7 +482,7 @@ fun BillDialogPhone(
                             OutlinedTextField(
                                 value = uiState.customerPhone,
                                 onValueChange = {},
-                                label = { Text("Customer Phone") },
+                                label = { Text("Phone") },
                                 enabled = false,
                                 readOnly = true,
                                 singleLine = true,
